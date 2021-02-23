@@ -52,12 +52,10 @@ while n <= 5:
     n += 1
 
 end = time.time()   # 게임 종료 시간
-
 diff = end - start  # 총 게임 실행 시간
 diff = format(diff, ".3f")
 
 if cor_cnt >= 3:
-    
     print("합격")
 else:
     print("불합격")
